@@ -27,6 +27,7 @@ accueil-large: Bienvenue au Mipeul
 ```
 
 Editing `accueil-large` => bad !
+
 Editing `accueil-large` => good !
 
 Please do not touch 

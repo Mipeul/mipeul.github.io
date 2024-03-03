@@ -1,4 +1,4 @@
-# If you are a 
+# If you are a Sorcerer
 
 Mipeul's (Mouvement Independant Pour l'Exploration de l'Univers Ludique) public web site.
 
@@ -35,4 +35,4 @@ Please do not touch
 layout: default
 ```
 
-**Anyway, you cannot break permanently anything, so keep cool :)**
+- **Anyway, you cannot break permanently anything, so keep cool :)**

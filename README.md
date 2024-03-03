@@ -13,7 +13,7 @@ Local site will be available on http://127.0.0.1:4000/.
 
 # If you are a Muggler
 
-Please do not touch anything but [index.md](index.md) file.
+Please do not touch anything but [index.md](index.md?plain=1) file.
 
 You may edit the file online
 ![](https://docs.github.com/assets/cb-47677/mw-1440/images/help/repository/edit-file-edit-button.webp)

@@ -35,6 +35,6 @@ Please do not touch
 layout: default
 ```
 
-```
+```diff
 - **Anyway, you cannot break permanently anything, so keep cool :)**
 ```

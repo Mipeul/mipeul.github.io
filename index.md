@@ -40,7 +40,25 @@ vie-asso-6-titre: Notre ludothèque
 vie-asso-6-photo: assets/img/vie-du-club/ludotheque.jpeg
 vie-asso-6-description: Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!
 
+# animations
+animations-titre: Nos animations
+animations-presentation: Le Mipeul c'est aussi des animations tout au long de l'année. Nous participons à plusieurs événements pour partager notre passion du jeu de société. Pour en savoir plus ou pour nous demander un devis, [contactez-nous](#contact).
 
+animations-1-titre: Animations
+animations-1-photo: assets/img/animations/animation-3-brasseurs.jpg
+animations-1-description: Nous proposons, tout au long de l'année, des animations pour plusieurs lieux et événements.
+
+animations-2-titre: Festivals
+animations-2-photo: assets/img/animations/animation-ultavia.jpeg
+animations-2-description: Nous animons régulièrement les espaces jeux libres dans les festivals (FJP, Ultavia, le FLOP, ...).
+
+animations-3-titre: Animations sur mesure
+animations-3-photo: assets/img/animations/animation-musee.jpeg
+animations-3-description: Nous effectuons aussi des projets d'animations spéciales, sur mesure, pour des projets ambitieux.
+
+#contact
+contact-titre: Contactez-nous
+contact-presentation: Vous souhaitez en savoir plus sur nous ? Vous souhaitez nous rejoindre ? Vous voulez nous dire que vous nous aimez ? Vous souhaitez organiser une animation ? N'hésitez pas à nous contacter !
 ---
 
 

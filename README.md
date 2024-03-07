@@ -21,8 +21,6 @@ You may edit the file online
 
 But only the part on the **right** side of each line....
 
-Find more [here](https://www.markdownguide.org/basic-syntax/).
-
 Exemple : 
 ```
 accueil-large: Bienvenue au Mipeul
@@ -43,7 +41,9 @@ You may use markdown syntax, for example :
 * _\_italic\__ => _italic_
 * \[link\]\(mipeul.github.io\) => [link](mipeul.github.io)
 
+Find more [here](https://www.markdownguide.org/basic-syntax/).
+
 
 ```diff
-- **Anyway, you cannot break permanently anything, so keep cool :)**
+- Anyway, you cannot break permanently anything, so keep cool :)
 ```

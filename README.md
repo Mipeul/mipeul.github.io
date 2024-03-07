@@ -19,7 +19,9 @@ You may edit the file online
 ![](https://docs.github.com/assets/cb-47677/mw-1440/images/help/repository/edit-file-edit-button.webp)
 
 
-but only the part on the **right** side of each line.
+But only the part on the **right** side of each line....
+
+Find more [here](https://www.markdownguide.org/basic-syntax/).
 
 Exemple : 
 ```
@@ -28,12 +30,19 @@ accueil-large: Bienvenue au Mipeul
 
 Editing `accueil-large` => bad !
 
-Editing `accueil-large` => good !
+Editing `Bienvenue au Mipeul` => good !
 
-Please do not touch 
+**Please do not touch**
 ```
 layout: default
 ```
+
+You may use markdown syntax, for example :
+
+* \*\*bold\*\* => **bold**
+* _\_italic\__ => _italic_
+* \[link\]\(mipeul.github.io\) => [link](mipeul.github.io)
+
 
 ```diff
 - **Anyway, you cannot break permanently anything, so keep cool :)**

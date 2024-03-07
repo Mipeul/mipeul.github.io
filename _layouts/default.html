@@ -48,8 +48,8 @@
         <!-- Masthead-->
         <header class="masthead">
             <div class="container">
-                <div class="masthead-subheading">{{page.accueil-text}}</div>
                 <div class="masthead-heading text-uppercase">{{page.accueil-large}}</div>
+                <div class="masthead-subheading">{{page.accueil-text}}</div>
             </div>
         </header>
         <!-- Soirées-->
@@ -243,7 +243,6 @@
                                 <div class="invalid-feedback" data-sb-feedback="message:required">Un message est requis</div>
                             </div>
                         </div>
-                        <p id="contactFormStatus"></p>
                     </div>
                     <!-- Submit success message-->
                     <div class="d-none" id="submitSuccessMessage">
@@ -275,16 +274,10 @@
                       }).then(response => {
                         if (response.ok) {
                           submitSuccessMessage.className="d-block";
-                          //status.innerHTML = "Thanks for your submission!";
                           form.reset()
                         } else {
                           response.json().then(data => {
                             submitErrorMessage.className="d-block";
-                            // if (Object.hasOwn(data, 'errors')) {
-                            //   //status.innerHTML = data["errors"].map(error => error["message"]).join(", ")
-                            // } else {
-                            //   //status.innerHTML = "Oops! There was a problem submitting your form"
-                            // }
                           })
                         }
                       }).catch(error => {
@@ -303,14 +296,8 @@
                 <div class="row align-items-center">
                     <div class="col-lg-4 text-lg-start"></div>
                     <div class="col-lg-4 my-3 my-lg-0">
-                        <!-- <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Twitter"><i class="fab fa-twitter"></i></a> -->
                         <a class="btn btn-dark btn-social mx-2" href="https://www.facebook.com/MIPEUL" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
-                        <!-- <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a> -->
                     </div>
-                    <!-- <div class="col-lg-4 text-lg-end">
-                        <a class="link-dark text-decoration-none me-3" href="#!">Privacy Policy</a>
-                        <a class="link-dark text-decoration-none" href="#!">Terms of Use</a>
-                    </div> -->
                 </div>
             </div>
         </footer>

@@ -30,7 +30,6 @@
         <!-- Navigation-->
         <nav class="navbar navbar-expand-lg navbar-dark fixed-top" style="background-color: #e30016;" id="mainNav">
             <div class="container">
-                <!-- <a class="navbar-brand" href="#page-top"><img src="assets/img/navbar-logo.svg" alt="..." /></a> -->
                 <a class="navbar-brand" href="#page-top"><img src="assets/img/text-mipeul-logo.png" alt="..." /></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                     Menu
@@ -51,7 +50,6 @@
             <div class="container">
                 <div class="masthead-subheading">{{page.accueil-text}}</div>
                 <div class="masthead-heading text-uppercase">{{page.accueil-large}}</div>
-                <!-- <a class="btn btn-primary btn-xl text-uppercase" href="#services">Tell Me More</a> -->
             </div>
         </header>
         <!-- Soirées-->
@@ -100,7 +98,6 @@
                             </a>
                             <div class="portfolio-caption">
                                 <div class="portfolio-caption-heading">{{page.vie-asso-1-titre}}</div>
-                                <!-- <div class="portfolio-caption-subheading text-muted">Illustration</div> -->
                             </div>
                         </div>
                     </div>
@@ -115,7 +112,6 @@
                             </a>
                             <div class="portfolio-caption">
                                 <div class="portfolio-caption-heading">{{page.vie-asso-2-titre}}</div>
-                                <!-- <div class="portfolio-caption-subheading text-muted">Graphic Design</div> -->
                             </div>
                         </div>
                     </div>
@@ -130,7 +126,6 @@
                             </a>
                             <div class="portfolio-caption">
                                 <div class="portfolio-caption-heading">{{page.vie-asso-3-titre}}</div>
-                                <!-- <div class="portfolio-caption-subheading text-muted">Identity</div> -->
                             </div>
                         </div>
                     </div>
@@ -145,7 +140,6 @@
                             </a>
                             <div class="portfolio-caption">
                                 <div class="portfolio-caption-heading">{{page.vie-asso-4-titre}}</div>
-                                <!-- <div class="portfolio-caption-subheading text-muted">Branding</div> -->
                             </div>
                         </div>
                     </div>
@@ -160,7 +154,6 @@
                             </a>
                             <div class="portfolio-caption">
                                 <div class="portfolio-caption-heading">{{page.vie-asso-5-titre}}</div>
-                                <!-- <div class="portfolio-caption-subheading text-muted">Website Design</div> -->
                             </div>
                         </div>
                     </div>
@@ -175,7 +168,6 @@
                             </a>
                             <div class="portfolio-caption">
                                 <div class="portfolio-caption-heading">{{page.vie-asso-6-titre}}</div>
-                                <!-- <div class="portfolio-caption-subheading text-muted">Photography</div> -->
                             </div>
                         </div>
                     </div>
@@ -228,14 +220,7 @@
                     <h2 class="section-heading text-uppercase">Contactez-nous</h2>
                     <h3 class="section-subheading" style="color: #fff;">Vous souhaitez en savoir plus sur nous ? Vous souhaitez organiser une animation ? N'hésitez pas à nous contacter.</h3>
                 </div>
-                <!-- * * * * * * * * * * * * * * *-->
-                <!-- * * SB Forms Contact Form * *-->
-                <!-- * * * * * * * * * * * * * * *-->
-                <!-- This form is pre-integrated with SB Forms.-->
-                <!-- To make this form functional, sign up at-->
-                <!-- https://startbootstrap.com/solution/contact-forms-->
-                <!-- to get an API token!-->
-                <!-- <form id="contactForm" data-sb-form-api-token="API_TOKEN"> -->
+
                 <form id="contactForm" action="https://formspree.io/f/xpzvlped" method="POST">
                     <div class="row align-items-stretch mb-5">
                         <div class="col-md-6">
@@ -258,27 +243,58 @@
                                 <div class="invalid-feedback" data-sb-feedback="message:required">Un message est requis</div>
                             </div>
                         </div>
+                        <p id="contactFormStatus"></p>
                     </div>
                     <!-- Submit success message-->
-                    <!---->
-                    <!-- This is what your users will see when the form-->
-                    <!-- has successfully submitted-->
                     <div class="d-none" id="submitSuccessMessage">
                         <div class="text-center text-white mb-3">
-                            <div class="fw-bolder">Form submission successful!</div>
-                            To activate this form, sign up at
-                            <br />
-                            <a href="https://startbootstrap.com/solution/contact-forms">https://startbootstrap.com/solution/contact-forms</a>
+                            <div class="fw-bolder">Formulaire envoyé avec succès, nous vous répondrons au plus vite ;)</div>
                         </div>
                     </div>
                     <!-- Submit error message-->
-                    <!---->
-                    <!-- This is what your users will see when there is-->
-                    <!-- an error submitting the form-->
-                    <div class="d-none" id="submitErrorMessage"><div class="text-center text-danger mb-3">Error sending message!</div></div>
-                    <!-- Submit Button-->
-                    <div class="text-center"><button class="btn btn-primary btn-xl text-uppercase disabled" id="submitButton" type="submit">Send Message</button></div>
+                    <div class="d-none" id="submitErrorMessage"><div class="text-center text-danger mb-3">Erreur dans l'envoi du message</div></div>
+
+                    <div class="text-center"><button class="btn btn-primary btn-xl text-uppercase" id="submitButton" type="submit">Send Message</button></div>
                 </form>
+
+                <script>
+                    var form = document.getElementById("contactForm");
+
+                    var submitSuccessMessage = document.getElementById("submitSuccessMessage");
+                    var submitErrorMessage = document.getElementById("submitErrorMessage");
+                    
+                    async function handleSubmit(event) {
+                      event.preventDefault();
+                      var data = new FormData(event.target);
+                      fetch(event.target.action, {
+                        method: form.method,
+                        body: data,
+                        headers: {
+                            'Accept': 'application/json'
+                        }
+                      }).then(response => {
+                        if (response.ok) {
+                          submitSuccessMessage.className="d-block";
+                          //status.innerHTML = "Thanks for your submission!";
+                          form.reset()
+                        } else {
+                          response.json().then(data => {
+                            submitErrorMessage.className="d-block";
+                            // if (Object.hasOwn(data, 'errors')) {
+                            //   //status.innerHTML = data["errors"].map(error => error["message"]).join(", ")
+                            // } else {
+                            //   //status.innerHTML = "Oops! There was a problem submitting your form"
+                            // }
+                          })
+                        }
+                      }).catch(error => {
+                        submitErrorMessage.className="d-block";
+
+                        // status.innerHTML = "Oops! There was a problem submitting your form"
+                      });
+                    }
+                    form.addEventListener("submit", handleSubmit)
+                </script>
             </div>
         </section>
         <!-- Footer-->

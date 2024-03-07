@@ -17,21 +17,27 @@ soirees-droite-description: Une sortie au FLIP ? Une soirée Ordinaire Extra (pl
 
 # La vie de l'asso
 vie-asso-1-titre: Les soirées du mercredi
+vie-asso-1-photo: assets/img/vie-du-club/grande-salle.jpeg
 vie-asso-1-description: Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!
 
 vie-asso-2-titre: Les soirées à thème
+vie-asso-2-photo: assets/img/vie-du-club/soirees-theme.jpeg
 vie-asso-2-description: Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!
 
 vie-asso-3-titre: Les gros jeux
+vie-asso-3-photo: assets/img/vie-du-club/gros-jeux.jpeg
 vie-asso-3-description: Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!
 
 vie-asso-4-titre: Les petits jeux
+vie-asso-4-photo: assets/img/vie-du-club/roshambo.jpg
 vie-asso-4-description: Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!
 
 vie-asso-5-titre: Les jeux d'extérieur
+vie-asso-5-photo: assets/img/vie-du-club/jeux-dete.jpeg
 vie-asso-5-description: Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!
 
 vie-asso-6-titre: Notre ludothèque
+vie-asso-6-photo: assets/img/vie-du-club/ludotheque.jpeg
 vie-asso-6-description: Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!
 
 

@@ -13,7 +13,7 @@ soirees-gauche-titre: Le mercredi soir
 soirees-gauche-description: Tous les mercredis soirs, même pendant les vacances, retrouvez-nous au Centre d'animation des Couronneries [37 Rue Pierre de Coubertin à Poitiers](https://maps.app.goo.gl/i7Wi1qTQFtNcBz9F7) à partir de 18h30.
 
 soirees-droite-titre: Nos autres rendez-vous
-soirees-droite-description: Une sortie au FLIP ? Une soirée Ordinaire Extra (plusieurs soirées spéciales par an) ? une soirée jeux dans une yourte ? une soirée gros jeu ? Pour ne rien rater, suivez-nous sur [Facebook](https://www.facebook.com/MIPEUL).
+soirees-droite-description: Une sortie au FLIP ? Une soirée Ordinaire Extra (plusieurs soirées spéciales par an) ? Une soirée jeux dans une yourte ? Une soirée gros jeu ? Pour ne rien rater, suivez-nous sur [Facebook](https://www.facebook.com/MIPEUL).
 
 # La vie de l'asso
 vie-asso-1-titre: Les soirées du mercredi

@@ -168,7 +168,7 @@ h6, .h6 {
 p {
   margin-top: 0;
   margin-bottom: 1rem;
-  font-family: Roboto;
+  font-family: 'Roboto';
 }
 
 abbr[title] {
@@ -10853,8 +10853,8 @@ p {
 .page-section h3.section-subheading, .page-section .section-subheading.h3 {
   font-size: 1rem;
   font-weight: 400;
-  font-style: italic;
-  font-family: Roboto;
+  /* font-style: italic; */
+  font-family: 'Roboto';
   margin-bottom: 4rem;
 }
 

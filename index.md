@@ -6,6 +6,8 @@ accueil-large: Bienvenue au Mipeul
 accueil-text: Le Mipeul est une association ludique basée à Poitiers. Nous organisons des soirées jeu de société mais aussi des animations autour du jeu de société.
 
 # La vie de l'asso
+vie-asso-presentation: Blah blah par Andy
+
 vie-asso-1-titre: Les soirées du mercredi
 vie-asso-1-photo: assets/img/vie-du-club/grande-salle.jpeg
 vie-asso-1-description: Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!

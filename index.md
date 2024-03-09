@@ -6,7 +6,7 @@ accueil-large: Bienvenue au Mipeul
 accueil-text: Le Mipeul est une association ludique basée à Poitiers. Nous organisons des soirées jeu de société mais aussi des animations autour du jeu de société.
 
 # Les Soirées Du MIPEUL
-soirees-titre: Les soirées du Mipeul
+soirees-titre: Infos pratiques
 soirees-description: Venez nous retrouver, seul ou en groupe, pour les soirées du Mipeul ! Aucune adhésion n'est requise pour venir jouer au Mipeul
 
 soirees-gauche-titre: Le mercredi soir

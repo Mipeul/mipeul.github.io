@@ -1,4 +1,5 @@
-const CALENDAR_URL = 'https://docs.google.com/spreadsheets/d/2PACX-1vQBMbSgIOLm7JMJhjGdqkEDnx-tjjaFHYXaO7NnqNJrzF7XLPOIcHcdKb6lSINmq5q9nCHPfLWyo-t2/gviz/tq?';
+//const CALENDAR_URL = 'https://docs.google.com/spreadsheets/d/17V__c3nv5uWqeCRMaJYGzW6YmlcyoHpxxEjzlCeQJj8/gviz/tq?';
+const CALENDAR_URL = 'https://docs.google.com/spreadsheets/d/17V__c3nv5uWqeCRMaJYGzW6YmlcyoHpxxEjzlCeQJj8/gviz/tq?';
 
 const createCellInTableRow = (row, content) => {
     const newCell = row.insertCell();
@@ -15,13 +16,14 @@ const appendEventToTable = (event) => {
 
     const newRow = mipeulCalendar.insertRow();
 
-    createCellInTableRow(newRow, event.date);
+    createCellInTableRow(newRow, event.printableDate);
     createCellInTableRow(newRow, event.name);
+    createCellInTableRow(newRow, event.time);
     createCellInTableRow(newRow, event.location);
 };
 
 document.addEventListener('DOMContentLoaded', event => {
-    const query = 'Select A,B,C';
+    const query = 'Select A,B,C,D,E';
     const httpQuery = `${CALENDAR_URL}&tq=${encodeURIComponent(query)}`;
 
     fetch(httpQuery)
@@ -30,23 +32,31 @@ document.addEventListener('DOMContentLoaded', event => {
             const jsonData = JSON.parse(rep.substring(47).slice(0, -2));
 
             console.log(jsonData);
-            if(jsonData.table.rows 
-                && jsonData.table.rows.length === 1 
-                && jsonData.table.rows[0].c[0].v === 'Date'){
+            if(!jsonData.table.rows || jsonData.table.rows.length === 0){
                     hideRendezVousSection();
             } else {
-                jsonData.table.rows.forEach(row => {
-                    const event = {
-                        date : row.c[0].f.substring(0,10),
+                jsonData.table.rows.map(row => {
+                    return event = {
+                        public : row.c[0].v === 'Public',
                         name : row.c[1].v,
-                        location : row.c[2].v
-                    };
-    
-                    appendEventToTable(event);
-                });
+                        printableDate : row.c[2] ? row.c[2].f : '??',
+                        date : row.c[2] ? eval("new " + row.c[2].v) : null,
+                        time : row.c[3].v,
+                        location : row.c[4].v,
+                    } })
+                    .filter(event => event.public && event.date && event.date >= Date.now())
+                    .sort((event1, event2) => event1.date - event2.date)
+                    .forEach(event => {
+                        appendEventToTable(event);    
+                    });
+
+                ;
             }
         })
-        .catch(_ => hideRendezVousSection())
+        .catch(e => {
+            console.log("catch" + e);
+            hideRendezVousSection();
+        })
 ;
 
 

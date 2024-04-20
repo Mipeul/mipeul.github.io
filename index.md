@@ -3,11 +3,7 @@
 layout: default
 
 accueil-large: Bienvenue au Mipeul
-# accueil-text: Le Mipeul est une association ludique basée à Poitiers. Nous organisons des soirées jeu de société mais aussi des animations autour du jeu de société.
-
 accueil-text: L'association ludique de Poitiers
-# , retrouvez nous sur <img src='assets/img/facebook-logo.png'/> [Facebook](https://www.facebook.com/MIPEUL) 
-#<a href="https://www.facebook.com/MIPEUL" style="color:white;">Facebook</a>
 
 # La vie de l'asso
 vie-asso-presentation: Le Mipeul (**M**ouvement **I**ndépendant **P**our l'**E**xploration de l'**U**nivers **L**udique) est une association 1901 qui se réunit régulièrement pour proposer des activités à ses membres et des animations à tous.

@@ -5,7 +5,7 @@ layout: default
 accueil-large: Bienvenue au Mipeul
 # accueil-text: Le Mipeul est une association ludique basée à Poitiers. Nous organisons des soirées jeu de société mais aussi des animations autour du jeu de société.
 
-accueil-text: Le Mipeul est une association ludique basée à Poitiers. Retrouvez notre actualité sur [Facebook](https://www.facebook.com/MIPEUL) 
+accueil-text: Le Mipeul est une association ludique de Poitiers, retrouvez nous sur [Facebook](https://www.facebook.com/MIPEUL) 
 #<a href="https://www.facebook.com/MIPEUL" style="color:white;">Facebook</a>
 
 # La vie de l'asso
@@ -15,24 +15,24 @@ vie-asso-1-titre: Les soirées du mercredi
 vie-asso-1-photo: assets/img/vie-du-club/grande-salle.jpeg
 vie-asso-1-description: Retrouvez-nous le mercredi à partir de 18h30 au Centre d'animation des Couronneries [37 Rue Pierre de Coubertin à Poitiers](https://maps.app.goo.gl/i7Wi1qTQFtNcBz9F7) pour une soirée jeux de sociétés. Gros jeux, petits jeux, jeux d'ambience, il y en a pour tous les goûts. Venez gratuitement, seuls ou en groupe, jouer avec nous.
 
-vie-asso-2-titre: Les soirées à thème
+vie-asso-2-titre: Les soirées à thèmes
 vie-asso-2-photo: assets/img/vie-du-club/soirees-theme.jpeg
 vie-asso-2-description: Plusieurs fois dans l'année, l'association organise des soirées Ordinaires Extra, avec un thème donné et des activités accordées. Retrouvez toutes les informations sur [Facebook](https://www.facebook.com/MIPEUL).
 
 vie-asso-3-titre: Les gros jeux
 vie-asso-3-photo: assets/img/vie-du-club/gros-jeux.jpeg
-vie-asso-3-description: Régulièrement, l'association organise des soirées spéciales "Gros Jeux" qui permettent de réunir des joueurs autour d'une partie de plusieurs heures. Pour y participer, [contactez-nous](#contact). 
+vie-asso-3-description: Régulièrement, l'association organise des soirées spéciales "Gros Jeux" qui permettent de réunir des joueurs autour d'une partie de plusieurs heures. Pour y participer, contactez-nous au préalable. 
 #FIXME
 
 vie-asso-4-titre: Les petits jeux
 vie-asso-4-photo: assets/img/vie-du-club/roshambo.jpg
 vie-asso-4-description: Le Mipeul propose aussi des petits jeux, "Créations Maison" souvent courts, parfois malins mais toujours funs.
 
-vie-asso-5-titre: Les jeux d'extérieur
+vie-asso-5-titre: Les jeux d'été
 vie-asso-5-photo: assets/img/vie-du-club/jeux-dete.jpeg
 vie-asso-5-description: L'été venu, nous proposons des activités basées sur des jeux d'extérieur. Cornhole, Molky, Tour de Froebel ou Kubb n'auront plus de secret pour vous.
 
-vie-asso-6-titre: Notre ludothèque
+vie-asso-6-titre: Nos jeux
 vie-asso-6-photo: assets/img/vie-du-club/ludotheque.jpeg
 vie-asso-6-description: Nous disposons d'une ludothèque de plus de 500 jeux qui évolue en permanence. Nous faisons l'acquisition de dizaines de jeux chaque année afin de renouveler et de tenir à jour notre ludothèque.
 

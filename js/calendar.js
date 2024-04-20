@@ -9,6 +9,7 @@ const createCellInTableRow = (row, content) => {
 
 const hideRendezVousSection = event => {
     document.getElementById('rendez-vous').style.display = 'none';
+    document.getElementById('menu-rendez-vous').style.display = 'none';
 }
 
 const appendEventToTable = (event) => {

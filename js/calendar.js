@@ -49,8 +49,6 @@ document.addEventListener('DOMContentLoaded', event => {
                     .forEach(event => {
                         appendEventToTable(event);    
                     });
-
-                ;
             }
         })
         .catch(e => {

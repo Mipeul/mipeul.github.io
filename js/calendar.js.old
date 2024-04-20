@@ -1,4 +1,4 @@
-const CALENDAR_URL = 'https://docs.google.com/spreadsheets/d/2PACX-1vQBMbSgIOLm7JMJhjGdqkEDnx-tjjaFHYXaO7NnqNJrzF7XLPOIcHcdKb6lSINmq5q9nCHPfLWyo-t2/gviz/tq?';
+const CALENDAR_URL = 'https://docs.google.com/spreadsheets/d/1OzD3YcqYXDue6klV0jVroqNuHhtdyyDC7EFqzoWTKq4/gviz/tq?';
 
 const createCellInTableRow = (row, content) => {
     const newCell = row.insertCell();

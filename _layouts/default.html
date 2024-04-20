@@ -51,15 +51,14 @@
         <header class="masthead">
             <div class="container">
                 <div class="masthead-heading text-uppercase">{{page.accueil-large}}</div>
-                <div class="masthead-subheading">{{page.accueil-text}}</div>
-                <div class="masthead-subheading">Retrouvez notre actualité sur <a href="https://www.facebook.com/MIPEUL" style="color:white;">Facebook</a></div>
+                <div class="masthead-subheading">{{page.accueil-text|markdownify}}</div>
             </div>
         </header>
         <!-- Vie du club-->
         <section class="page-section bg-light" id="vie-de-lasso">
             <div class="container">
                 <div class="text-center">
-                    <h2 class="section-heading text-uppercase">L'asso</h2>
+                    <h2 class="section-heading text-uppercase">L'association</h2>
                     <h3 class="section-subheading text-muted">{{page.vie-asso-presentation|markdownify}}</h3>
                 </div>
                 <div class="row">

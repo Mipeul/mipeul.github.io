@@ -10964,7 +10964,13 @@ header.masthead .masthead-subheading {
   line-height: 1.5rem;
   margin-bottom: 25px;
   font-family: Roboto;
+  color: white;
 }
+
+.masthead-subheading a {
+  color: white;
+}
+
 header.masthead .masthead-heading {
   font-size: 3.25rem;
   font-weight: 700;

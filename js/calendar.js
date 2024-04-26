@@ -1,5 +1,5 @@
 //const CALENDAR_URL = 'https://docs.google.com/spreadsheets/d/17V__c3nv5uWqeCRMaJYGzW6YmlcyoHpxxEjzlCeQJj8/gviz/tq?';
-const CALENDAR_URL = 'https://docs.google.com/spreadsheets/d/17V__c3nv5uWqeCRMaJYGzW6YmlcyoHpxxEjzlCeQJj8/gviz/tq?';
+const CALENDAR_URL = 'https://docs.google.com/spreadsheets/d/16GhtkHfu62XHI-mP3p3GuJFqdTdJ7kcHTsPwdXqEnOs/gviz/tq?';
 
 const createCellInTableRow = (row, content) => {
     const newCell = row.insertCell();

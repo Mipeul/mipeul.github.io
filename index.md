@@ -42,7 +42,7 @@ animations-1-description: Nous proposons, tout au long de l'année, des animatio
 
 animations-2-titre: Festivals
 animations-2-photo: assets/img/animations/animation-ultavia.jpeg
-animations-2-description: Nous animons régulièrement les espaces jeux libres dans les festivals (FJP, Ultavia, le FLOP, ...).
+animations-2-description: Nous animons régulièrement les espaces jeux libres dans les festivals (Festival du Jeu en Poitou, Ultavia, Festival Ludique Officiel du Porteau, Route du Jeu à Saint-Malo, FLIP...).
 
 animations-3-titre: Animations sur mesure
 animations-3-photo: assets/img/animations/animation-musee.jpeg

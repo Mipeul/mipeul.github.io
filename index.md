@@ -20,7 +20,7 @@ vie-asso-3-titre: Les gros jeux
 vie-asso-3-photo: assets/img/vie-du-club/gros-jeux.jpeg
 vie-asso-3-description: Régulièrement, l'association organise des soirées spéciales "Gros Jeux" qui permettent de réunir des joueurs autour d'une partie de plusieurs heures. Pour y participer, contactez-nous au préalable. 
 
-vie-asso-4-titre: Jeux Spéctacles
+vie-asso-4-titre: Jeux Spectacles
 vie-asso-4-photo: assets/img/vie-du-club/jeux-spectacles.png
 vie-asso-4-description: Le Mipeul propose aussi des jeux spécacles, ces "créations maison" sont souvent courtes, parfois malines et toujours funs.
 
@@ -38,7 +38,7 @@ animations-presentation: Le Mipeul propose des animations tout au long de l'ann�
 
 animations-1-titre: Animations jeux de société
 animations-1-photo: assets/img/animations/animation-3-brasseurs.jpg
-animations-1-description: Nous proposons, tout au long de l'année, des animations pour plusieurs lieux et événements. Prévoyez des tables, on s'occupe du reste.
+animations-1-description: Nous proposons, tout au long de l'année, des animations pour plusieurs lieux et événements. Prévoyez des tables, on s'occupe du reste. Retrouvez notre ludothèque [ici](https://www.myludo.fr/#!/profil/mipeul-45959).
 
 animations-2-titre: Festivals
 animations-2-photo: assets/img/animations/animation-ultavia.jpeg
@@ -50,7 +50,7 @@ animations-3-description: Nous effectuons aussi des projets d'animations spécia
 
 # Infos pratiques
 soirees-titre: Infos pratiques
-soirees-description: Venez nous retrouver, seul ou en groupe, pour les soirées du Mipeul ! Aucune adhésion n'est requise pour venir jouer au Mipeul
+soirees-description: Venez nous retrouver, seul ou en groupe, pour les soirées du Mipeul ! Aucune adhésion n'est requise pour venir jouer au Mipeul.
 
 soirees-gauche-titre: Le mercredi soir
 soirees-gauche-description: Tous les mercredis soirs, même pendant les vacances, retrouvez-nous au Centre d'animation des Couronneries [37 Rue Pierre de Coubertin à Poitiers](https://maps.app.goo.gl/i7Wi1qTQFtNcBz9F7) à partir de 18h30.

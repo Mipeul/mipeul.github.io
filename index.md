@@ -30,7 +30,7 @@ vie-asso-5-description: L'été venu, nous proposons des activités basées sur 
 
 vie-asso-6-titre: Nos jeux
 vie-asso-6-photo: assets/img/vie-du-club/ludotheque.png
-vie-asso-6-description: Nous disposons d'une ludothèque de plus de 500 jeux qui évolue en permanence. Nous faisons l'acquisition de dizaines de jeux chaque année afin de renouveler et de tenir à jour notre ludothèque.
+vie-asso-6-description: Nous disposons d'une ludothèque de plus de 500 jeux qui évolue en permanence. Nous faisons l'acquisition de dizaines de jeux chaque année afin de renouveler et de tenir à jour notre ludothèque. Retrouvez notre ludothèque [ici](https://www.myludo.fr/#!/profil/mipeul-45959).
 
 # Animations
 animations-titre: Nos animations
@@ -38,7 +38,7 @@ animations-presentation: Le Mipeul propose des animations tout au long de l'ann�
 
 animations-1-titre: Animations jeux de société
 animations-1-photo: assets/img/animations/animation-3-brasseurs.jpg
-animations-1-description: Nous proposons, tout au long de l'année, des animations pour plusieurs lieux et événements. Prévoyez des tables, on s'occupe du reste. Retrouvez notre ludothèque [ici](https://www.myludo.fr/#!/profil/mipeul-45959).
+animations-1-description: Nous proposons, tout au long de l'année, des animations pour plusieurs lieux et événements. Prévoyez des tables, on s'occupe du reste.
 
 animations-2-titre: Festivals
 animations-2-photo: assets/img/animations/animation-ultavia.jpeg

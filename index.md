@@ -3,14 +3,14 @@
 layout: default
 
 accueil-large: Bienvenue au Mipeul
-accueil-text: L'association ludique de Poitiers
+accueil-text: Des jeux et des joueurs
 
 # La vie de l'asso
 vie-asso-presentation: Le Mipeul (**M**ouvement **I**ndépendant **P**our l'**E**xploration de l'**U**nivers **L**udique) est une association 1901 qui se réunit régulièrement pour proposer des activités à ses membres et des animations à toutes et à tous.
 
-vie-asso-1-titre: Le club du mipeuldi
+vie-asso-1-titre: Le club du mercredi
 vie-asso-1-photo: assets/img/vie-du-club/grande-salle.jpeg
-vie-asso-1-description: Retrouvez-nous le mercredi à partir de 18h30 au Centre d'animation des Couronneries [37 Rue Pierre de Coubertin à Poitiers](https://maps.app.goo.gl/i7Wi1qTQFtNcBz9F7) pour une soirée jeux de sociétés. Gros jeux, petits jeux, jeux d'ambience, il y en a pour tous les goûts. Venez gratuitement, seuls ou en groupe, jouer avec nous.
+vie-asso-1-description: Retrouvez-nous le mercredi (le **mipeuldi**) à partir de 18h30 au Centre d'animation des Couronneries [37 Rue Pierre de Coubertin à Poitiers](https://maps.app.goo.gl/i7Wi1qTQFtNcBz9F7) pour une soirée jeux de sociétés. Gros jeux, petits jeux, jeux d'ambience, il y en a pour tous les goûts. Venez gratuitement, seuls ou en groupe, jouer avec nous.
 
 vie-asso-2-titre: Soirées à théme
 vie-asso-2-photo: assets/img/vie-du-club/soirees-theme.png

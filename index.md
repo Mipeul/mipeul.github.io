@@ -6,13 +6,13 @@ accueil-large: Bienvenue au Mipeul
 accueil-text: L'association ludique de Poitiers
 
 # La vie de l'asso
-vie-asso-presentation: Le Mipeul (**M**ouvement **I**ndépendant **P**our l'**E**xploration de l'**U**nivers **L**udique) est une association 1901 qui se réunit régulièrement pour proposer des activités à ses membres et des animations à tous.
+vie-asso-presentation: Le Mipeul (**M**ouvement **I**ndépendant **P**our l'**E**xploration de l'**U**nivers **L**udique) est une association 1901 qui se réunit régulièrement pour proposer des activités à ses membres et des animations à toutes et à tous.
 
 vie-asso-1-titre: Le club du mipeuldi
 vie-asso-1-photo: assets/img/vie-du-club/grande-salle.jpeg
 vie-asso-1-description: Retrouvez-nous le mercredi à partir de 18h30 au Centre d'animation des Couronneries [37 Rue Pierre de Coubertin à Poitiers](https://maps.app.goo.gl/i7Wi1qTQFtNcBz9F7) pour une soirée jeux de sociétés. Gros jeux, petits jeux, jeux d'ambience, il y en a pour tous les goûts. Venez gratuitement, seuls ou en groupe, jouer avec nous.
 
-vie-asso-2-titre: Soirées à thème
+vie-asso-2-titre: Soirées à théme
 vie-asso-2-photo: assets/img/vie-du-club/soirees-theme.png
 vie-asso-2-description: Plusieurs fois dans l'année, l'association organise des soirées Ordinaires Extra, avec un thème donné et des activités accordées. Retrouvez toutes les informations sur [Facebook](https://www.facebook.com/MIPEUL).
 
@@ -34,7 +34,7 @@ vie-asso-6-description: Le MIPEUL « cultive » une collection de plus de 500 je
 
 # Animations
 animations-titre: Nos animations
-animations-presentation: Le Mipeul propose des animations tout au long de l'année pour partager notre passion du jeu de société au plus grand nombre. Pour en savoir plus ou nous proposer une animation, [contactez-nous](#contact).
+animations-presentation: Le Mipeul propose des animations toute l'année pour partager la passion du jeu de société au plus grand nombre. Pour en savoir plus ou nous proposer une animation, [contactez-nous](#contact).
 
 animations-1-titre: Animations jeux de société
 animations-1-photo: assets/img/animations/animation-3-brasseurs.jpg
@@ -50,7 +50,7 @@ animations-3-description: Nous créons ponctuellement des animations spéciales,
 
 # Infos pratiques
 soirees-titre: Infos pratiques
-soirees-description: Venez nous retrouver, seul, seule ou en groupe, pour les soirées du Mipeul ! Aucune adhésion n'est obligatoire pour venir jouer au Mipeul.
+soirees-description: Retrouvez-nous, seul, seule ou en groupe, pour les soirées du Mipeul ! Aucune adhésion n'est obligatoire pour jouer au Mipeul.
 
 soirees-gauche-titre: A mipeuldi !
 soirees-gauche-description: Tous les mercredis soirs, même pendant les vacances, retrouvez-nous au Centre d'animation des Couronneries [37 Rue Pierre de Coubertin à Poitiers](https://maps.app.goo.gl/i7Wi1qTQFtNcBz9F7) à partir de 18h30.
@@ -60,7 +60,7 @@ soirees-droite-description: Une sortie au FLIP ? Une soirée Ordinaire Extra (pl
 
 # Contact
 contact-titre: Contactez-nous
-contact-presentation: Vous souhaitez en savoir plus sur nous ? Vous souhaitez nous rejoindre ? Vous voulez nous dire que vous nous aimez ? Vous souhaitez organiser une animation ? N'hésitez pas à nous contacter !
+contact-presentation: Vous souhaitez en savoir plus sur nous ? Vous souhaitez nous rejoindre ? Vous voulez nous dire que vous nous aimez ? Vous souhaitez organiser une animation ? Contactez-nous !
 ---
 
 

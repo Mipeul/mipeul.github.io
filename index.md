@@ -6,7 +6,7 @@ accueil-large: Bienvenue au Mipeul
 accueil-text: Des jeux et des gens pour y jouer
 
 # La vie de l'asso
-vie-asso-presentation: Le Mipeul (**M**ouvement **I**ndépendant **P**our l'**E**xploration de l'**U**nivers **L**udique) est une association 1901 qui se réunit régulièrement pour proposer des activités à ses membres et des animations à toutes et à tous.
+vie-asso-presentation: Le **Mipeul** (**M**ouvement **I**ndépendant **P**our l'**E**xploration de l'**U**nivers **L**udique) est une association 1901 qui se réunit régulièrement pour proposer des activités à ses membres et des animations à toutes et à tous.
 
 vie-asso-1-titre: Le club du mercredi
 vie-asso-1-photo: assets/img/vie-du-club/grande-salle.jpeg
@@ -30,7 +30,7 @@ vie-asso-5-description: L'été venu, nous agrémentons nos soirées de jeux d'e
 
 vie-asso-6-titre: Nos jeux
 vie-asso-6-photo: assets/img/vie-du-club/ludotheque.png
-vie-asso-6-description: Le MIPEUL « cultive » une collection de plus de 500 jeux qui évolue en permanence. Nous faisons l'acquisition de dizaines de jeux chaque année afin de renouveler et de tenir à jour notre ludothèque. Retrouvez nos jeux [ici](https://www.myludo.fr/#!/profil/mipeul-45959).
+vie-asso-6-description: Le MIPEUL « cultive » une collection de plus de 600 jeux qui évolue en permanence. Nous faisons l'acquisition de dizaines de jeux chaque année afin de renouveler et de tenir à jour notre ludothèque. Retrouvez nos jeux [ici](https://www.myludo.fr/#!/profil/mipeul-45959).
 
 # Animations
 animations-titre: Nos animations

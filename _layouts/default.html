@@ -30,6 +30,9 @@
         <link href="css/styles.css" rel="stylesheet" />
     </head>
     <body id="page-top">
+        <div id="fb-root"></div>
+        <script async defer crossorigin="anonymous" src="https://connect.facebook.net/fr_FR/sdk.js#xfbml=1&version=v20.0" nonce="OrHCRLhD"></script>
+
         <!-- Navigation-->
         <nav class="navbar navbar-expand-lg navbar-dark fixed-top" style="background-color: #e30016;" id="mainNav">
             <div class="container">
@@ -55,9 +58,7 @@
                 <div class="masthead-heading text-uppercase">{{page.accueil-large}}</div>
                 <div class="masthead-subheading">{{page.accueil-text|markdownify}}</div>
                 <div class="masthead-subheading">
-                    <a href="https://www.facebook.com/MIPEUL">
-                        <i class="fa-brands fa-facebook fa-2xl"></i>
-                    </a>
+                    <div class="fb-page" data-href="https://www.facebook.com/MIPEUL" data-tabs="" data-width="" data-height="" data-small-header="true" data-adapt-container-width="true" data-hide-cover="true" data-show-facepile="true"><blockquote cite="https://www.facebook.com/MIPEUL" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/MIPEUL">MIPEUL - Poitiers</a></blockquote></div>
                 </div>
             </div>
         </header>
@@ -160,6 +161,7 @@
             <div class="container">
                 <div class="text-center">
                     <h2 class="section-heading text-uppercase">Prochains rendez-vous</h2>
+                    <h3 class="section-subheading text-muted">En plus de <a href="#infos-pratiques">la soirée jeu du mercredi</a>, retrouvez-nous lors des événements ci-dessous.</h3>
 
                     <table id="mipeul-calendar" class="table">
                         <thead>
@@ -241,6 +243,7 @@
                     </div>
                 </div>
             </div>
+
         </section>         
         <!-- Contact-->
         <section class="page-section" id="contact">

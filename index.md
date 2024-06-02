@@ -6,7 +6,7 @@ accueil-large: Bienvenue au Mipeul
 accueil-text: Des jeux et des gens pour y jouer
 
 # La vie de l'asso
-vie-asso-presentation: Le **Mipeul** (**M**ouvement **I**ndépendant **P**our l'**E**xploration de l'**U**nivers **L**udique) est une association 1901 qui se réunit régulièrement pour proposer des activités à ses membres et des animations à toutes et à tous.
+vie-asso-presentation: Le **Mipeul** (**M**ouvement **I**ndépendant **P**our l'**E**xploration de l'**U**nivers **L**udique) est une association 1901 qui se réunit régulièrement pour proposer des activités autour du jeu de société à ses membres et des animations à toutes et à tous.
 
 vie-asso-1-titre: Le club du mercredi
 vie-asso-1-photo: assets/img/vie-du-club/grande-salle.jpeg
@@ -53,7 +53,7 @@ soirees-titre: Infos pratiques
 soirees-description: Retrouvez-nous, seul, seule ou en groupe, pour les soirées du Mipeul ! Aucune adhésion n'est obligatoire pour jouer au Mipeul.
 
 soirees-gauche-titre: A mipeuldi !
-soirees-gauche-description: Tous les mercredis soirs, même pendant les vacances, retrouvez-nous au Centre d'animation des Couronneries [37 Rue Pierre de Coubertin à Poitiers](https://maps.app.goo.gl/i7Wi1qTQFtNcBz9F7) à partir de 18h30.
+soirees-gauche-description: Tous les mercredis soirs, même pendant les vacances et les jours fériés, retrouvez-nous à partir de 18h30 au Centre d'animation des Couronneries [37 Rue Pierre de Coubertin à Poitiers](https://maps.app.goo.gl/Ztf2us9Yrqq6uaLP6).
 
 soirees-droite-titre: Nos autres rendez-vous
 soirees-droite-description: Une sortie au FLIP ? Une soirée Ordinaire Extra (plusieurs soirées spéciales par an) ? Une soirée jeux dans une yourte ? Une soirée gros jeu ? Pour ne rien rater, suivez-nous sur [Facebook](https://www.facebook.com/MIPEUL).

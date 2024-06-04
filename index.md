@@ -18,7 +18,7 @@ vie-asso-2-description: Plusieurs fois dans l'année, l'association organise des
 
 vie-asso-3-titre: Gros jeux
 vie-asso-3-photo: assets/img/vie-du-club/gros-jeux.jpeg
-vie-asso-3-description: Régulièrement, l'association organise des soirées spéciales "Gros Jeux" qui permettant de réunir des joueurs autour d'une partie pouvant durer plusieurs heures. Pour y participer, contactez-nous au préalable. 
+vie-asso-3-description: Régulièrement, l'association organise des soirées spéciales "Gros Jeux" (ou jeux experts) qui permettant de réunir des joueurs autour d'une partie pouvant durer plusieurs heures. Pour y participer, contactez-nous au préalable. 
 
 vie-asso-4-titre: Jeux-spectacle
 vie-asso-4-photo: assets/img/vie-du-club/jeux-spectacles.png

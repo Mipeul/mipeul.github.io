@@ -6,7 +6,7 @@ accueil-large: Bienvenue au Mipeul
 accueil-text: Des jeux et des gens pour y jouer
 
 # La vie de l'asso
-vie-asso-presentation: Le **Mipeul** (**M**ouvement **I**ndépendant **P**our l'**E**xploration de l'**U**nivers **L**udique) est une association 1901 qui se réunit régulièrement pour proposer des activités autour du jeu de société à ses membres et des animations à toutes et à tous.
+vie-asso-presentation: Le **Mipeul** (**M**ouvement **I**ndépendant **P**our l'**E**xploration de l'**U**nivers **L**udique) est une association 1901 basée à Poitiers qui se réunit régulièrement pour proposer des activités autour du jeu de société à ses membres et des animations à toutes et à tous.
 
 vie-asso-1-titre: Le club du mercredi
 vie-asso-1-photo: assets/img/vie-du-club/grande-salle.jpeg

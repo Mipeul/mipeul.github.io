@@ -46,13 +46,15 @@ document.addEventListener('DOMContentLoaded', event => {
                     .filter(event => event.public && event.date && event.date >= Date.now())
                     .sort((event1, event2) => event1.date - event2.date)
                     
-                    if(!filteredEvents) {
+                    if(filteredEvents.length === 0) {
                         hideRendezVousSection();
+                    } else {
+                        filteredEvents.forEach(event => {
+                            appendEventToTable(event);    
+                        });
                     }
 
-                    filteredEvents.forEach(event => {
-                        appendEventToTable(event);    
-                    });
+
             }
         })
         .catch(e => {

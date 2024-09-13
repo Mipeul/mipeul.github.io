@@ -34,7 +34,7 @@ document.addEventListener('DOMContentLoaded', event => {
             if(!jsonData.table.rows || jsonData.table.rows.length === 0){
                     hideRendezVousSection();
             } else {
-                jsonData.table.rows.map(row => {
+                const filteredEvents = jsonData.table.rows.map(row => {
                     return event = {
                         public : row.c[0].v === 'Public',
                         name : row.c[1].v,
@@ -45,7 +45,12 @@ document.addEventListener('DOMContentLoaded', event => {
                     } })
                     .filter(event => event.public && event.date && event.date >= Date.now())
                     .sort((event1, event2) => event1.date - event2.date)
-                    .forEach(event => {
+                    
+                    if(!filteredEvents) {
+                        hideRendezVousSection();
+                    }
+
+                    filteredEvents.forEach(event => {
                         appendEventToTable(event);    
                     });
             }

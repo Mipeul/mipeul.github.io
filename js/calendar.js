@@ -36,13 +36,14 @@ document.addEventListener('DOMContentLoaded', event => {
             } else {
                 const filteredEvents = jsonData.table.rows.map(row => {
                     return event = {
-                        public : row.c[0].v === 'Public',
-                        name : row.c[1].v,
+                        public : row.c[0] ? row.c[0].v === 'Public' : false, 
+                        name : row.c[1] ? row.c[1].v : '',
                         printableDate : row.c[2] ? row.c[2].f : '??',
-                        date : row.c[2] ? eval("new " + row.c[2].v) : null,
-                        time : row.c[3].v,
-                        location : row.c[4].v,
+                        date : row.c[2] ? eval('new ' + row.c[2].v) : null,
+                        time : row.c[3] ? row.c[3].v : '',
+                        location : row.c[4] ? row.c[4].v : '',
                     } })
+                    .filter(event => event.name.toLowerCase() !== "mipeuldi")
                     .filter(event => event.public && event.date && event.date >= Date.now())
                     .sort((event1, event2) => event1.date - event2.date)
                     
@@ -60,8 +61,5 @@ document.addEventListener('DOMContentLoaded', event => {
         .catch(e => {
             console.log("catch" + e);
             hideRendezVousSection();
-        })
-;
-
-
+        });
 });

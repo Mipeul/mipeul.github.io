@@ -43,7 +43,7 @@ document.addEventListener('DOMContentLoaded', event => {
                         time : row.c[3] ? row.c[3].v : '',
                         location : row.c[4] ? row.c[4].v : '',
                     } })
-                    .filter(event => event.name.toLowerCase() !== "mipeuldi")
+                    .filter(event => event.name.toLowerCase() !== "soirée jeux mipeuldi")
                     .filter(event => event.public && event.date && event.date >= Date.now())
                     .sort((event1, event2) => event1.date - event2.date)
                     

@@ -10,7 +10,7 @@ vie-asso-presentation: Le **Mipeul** (**M**ouvement **I**ndépendant **P**our l'
 
 vie-asso-1-titre: Le club du mercredi
 vie-asso-1-photo: assets/img/vie-du-club/grande-salle.jpeg
-vie-asso-1-description: Retrouvez-nous le mercredi (le **mipeuldi**) à partir de 18h30 au Centre d'animation des Couronneries [37 Rue Pierre de Coubertin à Poitiers](https://maps.app.goo.gl/i7Wi1qTQFtNcBz9F7) pour une soirée jeux de sociétés. Gros jeux (jeux experts), petits jeux, jeux d'ambience, il y en a pour tous les goûts. Venez gratuitement, seuls ou en groupe, jouer avec nous.
+vie-asso-1-description: Retrouvez-nous le mercredi (le **mipeuldi**) à partir de 18h30 au Centre d'animation des Couronneries [37 Rue Pierre de Coubertin à Poitiers](https://maps.app.goo.gl/i7Wi1qTQFtNcBz9F7) pour une soirée jeux de sociétés. Gros jeux (jeux experts), petits jeux, jeux d'ambiance, il y en a pour tous les goûts. Venez gratuitement, seuls ou en groupe, jouer avec nous.
 
 vie-asso-2-titre: Soirées à théme
 vie-asso-2-photo: assets/img/vie-du-club/soirees-theme.png
@@ -22,7 +22,7 @@ vie-asso-3-description: Régulièrement, l'association organise des soirées sp�
 
 vie-asso-4-titre: Jeux-spectacle
 vie-asso-4-photo: assets/img/vie-du-club/jeux-spectacles.png
-vie-asso-4-description: Le Mipeul propose aussi des jeux spéctacles, ces "créations maison", faits avec amour, sont souvent courtes, parfois malines et toujours funs.
+vie-asso-4-description: Le Mipeul propose aussi des jeux spectacles. Ces "créations maison", faites avec amour, sont souvent courtes, parfois malines et toujours funs.
 
 vie-asso-5-titre: Jeux d’été
 vie-asso-5-photo: assets/img/vie-du-club/jeux-dete.jpeg
@@ -53,7 +53,7 @@ soirees-titre: Infos pratiques
 soirees-description: Retrouvez-nous, seul, seule ou en groupe, pour les animations jeux de société du Mipeul ! Aucune adhésion n'est obligatoire pour jouer au Mipeul.
 
 soirees-gauche-titre: A mipeuldi !
-soirees-gauche-description: Tous les mercredis soirs, même pendant les vacances et les jours fériés, retrouvez-nous à partir de 18h30 au Centre d'animation des Couronneries [37 Rue Pierre de Coubertin à Poitiers](https://maps.app.goo.gl/Ztf2us9Yrqq6uaLP6) pour une soirée jeux de société.
+soirees-gauche-description: Tous les mercredis soirs, même pendant les vacances et les jours fériés, retrouvez-nous à partir de 18h30 au Centre d'Animation des Couronneries [37 Rue Pierre de Coubertin à Poitiers](https://maps.app.goo.gl/Ztf2us9Yrqq6uaLP6) pour une soirée jeux de société.
 
 soirees-droite-titre: Nos autres rendez-vous
 soirees-droite-description: Une sortie au FLIP ? Une soirée Ordinaire Extra (plusieurs soirées spéciales par an) ? Des jeux dans une yourte ? Une soirée gros jeu ? Un escape game ? Pour ne rien rater, suivez-nous sur [Facebook](https://www.facebook.com/MIPEUL).

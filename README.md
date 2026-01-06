@@ -43,7 +43,15 @@ You may use markdown syntax, for example :
 
 Find more [here](https://www.markdownguide.org/basic-syntax/).
 
+## Banner
+If we want to make the banner appear on the website for urgent announces, just fill the fields `banner-title` and `banner-content` with the content you want in the banner. Remove the content to make it disappear.
+
+```
+banner-title:
+banner-content:
+```
 
 ```diff
 - Anyway, you cannot break permanently anything, so keep cool :)
 ```
+

@@ -72,6 +72,15 @@
                 </div>
             </div>
         </header>
+        {% if page.banner-title %}
+            <div class="mipeul-banner">
+                <h1>{{page.banner-title|markdownify}}</h1>
+                <p>
+                    {{page.banner-content|markdownify}}
+                </p>
+            </div>
+        {% endif %}
+
         <!-- Vie du club-->
         <section class="page-section bg-light" id="vie-de-lasso">
             <div class="container">

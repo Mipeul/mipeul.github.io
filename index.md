@@ -5,8 +5,8 @@ layout: default
 accueil-large: Bienvenue au Mipeul
 accueil-text: Des jeux et des gens pour y jouer
 
-banner-title: Pas de MIPEUL mercredi 7 janvier
-banner-content: Oyez, oyez ! Nous ne serons pas ouverts le mercredi 7 janvier !<br/> Oui, 2 semaines sans le Mipeul... quelle horreur 😭. L'école Andersen a eu un gros dégât des eaux, leurs cours sont reportés dans le CAC, qui ne peut donc pas accueillir nos activités... Essayez de prévenir un maximum de personnes dans votre entourage de mipeuliennes et mipeuliens, ceux qui n'auraient pas accès au Discord, ni aux courriels ! Nous n'avons pas les contacts de tout le monde...!
+banner-title:
+banner-content:
 
 # La vie de l'asso
 vie-asso-presentation: Le **Mipeul** (**M**ouvement **I**ndépendant **P**our l'**E**xploration de l'**U**nivers **L**udique) est une association basée à Poitiers qui se réunit régulièrement pour proposer des activités autour du jeu de société à ses membres et des animations à toutes et à tous.

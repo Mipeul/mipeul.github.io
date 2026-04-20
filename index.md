@@ -5,8 +5,11 @@ layout: default
 accueil-large: Bienvenue au Mipeul
 accueil-text: Des jeux et des gens pour y jouer
 
-banner-title:
-banner-content:
+event-promo-title: Les 15 ans du Mipeul !
+event-promo-text: "Retrouvez-nous le 6 juin pour cette journée Ordinaire Extra. Au programme : rétro board gaming, nos plus grandes réussites et nos plus gros fours. Et bien sûr, plein de jeux."
+event-promo-image: assets/img/15-ans-mipeul.png
+event-promo-alt: Visuel temporaire de promotion d'un événement du Mipeul
+event-promo-link: "#rendez-vous"
 
 # La vie de l'asso
 vie-asso-presentation: Le **Mipeul** (**M**ouvement **I**ndépendant **P**our l'**E**xploration de l'**U**nivers **L**udique) est une association basée à Poitiers qui se réunit régulièrement pour proposer des activités autour du jeu de société à ses membres et des animations à toutes et à tous.
@@ -65,5 +68,3 @@ soirees-droite-description: Une sortie au FLIP ? Une soirée Ordinaire Extra (pl
 contact-titre: Contactez-nous
 contact-presentation: Vous souhaitez en savoir plus sur nous ? Vous souhaitez nous rejoindre ? Vous voulez nous dire que vous nous aimez ? Vous souhaitez organiser une animation ? Contactez-nous !
 ---
-
-

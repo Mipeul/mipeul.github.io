@@ -72,15 +72,33 @@
                 </div>
             </div>
         </header>
-        {% if page.banner-title %}
-            <div class="mipeul-banner">
-                <h1>{{page.banner-title|markdownify}}</h1>
-                <p>
-                    {{page.banner-content|markdownify}}
-                </p>
-            </div>
+        {% if page.event-promo-image %}
+            <section class="event-promo-section">
+                <div class="container">
+                    {% if page.event-promo-title or page.event-promo-text %}
+                        <div class="event-promo-header">
+                            {% if page.event-promo-title %}
+                                <h2>{{page.event-promo-title}}</h2>
+                            {% endif %}
+                            {% if page.event-promo-text %}
+                                <div class="event-promo-text">{{page.event-promo-text|markdownify}}</div>
+                            {% endif %}
+                        </div>
+                    {% endif %}
+                    {% if page.event-promo-link %}
+                        <a class="event-promo-poster" href="{{page.event-promo-link}}">
+                    {% else %}
+                        <div class="event-promo-poster">
+                    {% endif %}
+                            <img src="{{page.event-promo-image}}" alt="{{page.event-promo-alt | default: page.event-promo-title | default: 'Visuel de promotion de l’événement'}}" />
+                    {% if page.event-promo-link %}
+                        </a>
+                    {% else %}
+                        </div>
+                    {% endif %}
+                </div>
+            </section>
         {% endif %}
-
         <!-- Vie du club-->
         <section class="page-section bg-light" id="vie-de-lasso">
             <div class="container">

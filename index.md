@@ -5,11 +5,11 @@ layout: default
 accueil-large: Bienvenue au Mipeul
 accueil-text: Des jeux et des gens pour y jouer
 
-# event-promo-title: Les 15 ans du Mipeul !
-# event-promo-text: "Retrouvez-nous le 6 juin pour cette journée Ordinaire Extra. Au programme : rétro board gaming, nos plus grandes réussites et nos plus gros fours. Et bien sûr, plein de jeux."
-# event-promo-image: assets/img/15-ans-mipeul.png
-# event-promo-alt: Visuel temporaire de promotion d'un événement du Mipeul
-# event-promo-link: "#rendez-vous"
+event-promo-title: Changement de dates les 16 et 30 septembre
+event-promo-text: Les mipeuldi 16 et 30 septembre, le club se réunira (aux horaires habituels) à l'étage du CSC de Beaulieu, [25 bvd Savari](https://maps.app.goo.gl/11w9vhm9WiYL3tFHA) (accès par la rampe extérieure).<br/><b>Le 23/9, on jouera au CAC des Couronneries comme d'habitude<b/>
+event-promo-image: assets/img/15-ans-et-demi-mipeul.jpg
+#event-promo-alt: Visuel temporaire de promotion d'un événement du Mipeul
+#event-promo-link: "#rendez-vous"
 
 # La vie de l'asso
 vie-asso-presentation: Le **Mipeul** (**M**ouvement **I**ndépendant **P**our l'**E**xploration de l'**U**nivers **L**udique) est une association basée à Poitiers qui se réunit régulièrement pour proposer des activités autour du jeu de société à ses membres et des animations à toutes et à tous.

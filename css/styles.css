@@ -11338,6 +11338,11 @@ section#contact form#contactForm :-ms-input-placeholder {
 .event-promo-header {
   width: min(100%, 720px);
   margin: 0 auto 1.25rem;
+  padding: 1.75rem 2rem;
+  background-color: #fff9e6;
+  border: 2px solid #ffc800;
+  border-radius: 1rem;
+  box-shadow: 0 12px 30px rgba(33, 37, 41, 0.1);
   text-align: center;
 }
 
@@ -11352,6 +11357,15 @@ section#contact form#contactForm :-ms-input-placeholder {
   margin-bottom: 0;
   font-size: 1.05rem;
   color: #495057;
+}
+
+.event-promo-text a {
+  color: #856800;
+  font-weight: 600;
+}
+
+.event-promo-text a:hover {
+  color: #5c4800;
 }
 
 .event-promo-poster {

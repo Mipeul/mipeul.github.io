@@ -72,7 +72,7 @@
                 </div>
             </div>
         </header>
-        {% if page.event-promo-image %}
+        {% if page.event-promo-title or page.event-promo-text or page.event-promo-image %}
             <section class="event-promo-section">
                 <div class="container">
                     {% if page.event-promo-title or page.event-promo-text %}
@@ -85,16 +85,18 @@
                             {% endif %}
                         </div>
                     {% endif %}
-                    {% if page.event-promo-link %}
-                        <a class="event-promo-poster" href="{{page.event-promo-link}}">
-                    {% else %}
-                        <div class="event-promo-poster">
-                    {% endif %}
-                            <img src="{{page.event-promo-image}}" alt="{{page.event-promo-alt | default: page.event-promo-title | default: 'Visuel de promotion de l’événement'}}" />
-                    {% if page.event-promo-link %}
-                        </a>
-                    {% else %}
-                        </div>
+                    {% if page.event-promo-image %}
+                        {% if page.event-promo-link %}
+                            <a class="event-promo-poster" href="{{page.event-promo-link}}">
+                        {% else %}
+                            <div class="event-promo-poster">
+                        {% endif %}
+                                <img src="{{page.event-promo-image}}" alt="{{page.event-promo-alt | default: page.event-promo-title | default: 'Visuel de promotion de l’événement'}}" />
+                        {% if page.event-promo-link %}
+                            </a>
+                        {% else %}
+                            </div>
+                        {% endif %}
                     {% endif %}
                 </div>
             </section>

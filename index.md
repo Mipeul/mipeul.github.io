@@ -5,8 +5,8 @@ layout: default
 accueil-large: Bienvenue au Mipeul
 accueil-text: Des jeux et des gens pour y jouer
 
-event-promo-title: Changement de date le 30 septembre
-event-promo-text: Le mipeuldi 30 septembre, le club se réunira (aux horaires habituels) à l’étage du CSC de Beaulieu, [25 bvdSavari](https://maps.app.goo.gl/11w9vhm9WiYL3tFHA) (accès par la rampe extérieure).
+event-promo-title:
+event-promo-text:
 #event-promo-alt: Visuel temporaire de promotion d'un événement du Mipeul
 #event-promo-link: "#rendez-vous"
 

@@ -75,6 +75,7 @@
         {% if page.event-promo-title or page.event-promo-text or page.event-promo-image %}
             <section class="event-promo-section">
                 <div class="container">
+                    <div class="event-promo-card">
                     {% if page.event-promo-title or page.event-promo-text %}
                         <div class="event-promo-header">
                             {% if page.event-promo-title %}
@@ -98,6 +99,7 @@
                             </div>
                         {% endif %}
                     {% endif %}
+                    </div>
                 </div>
             </section>
         {% endif %}

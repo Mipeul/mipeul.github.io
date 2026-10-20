@@ -1,0 +1,75 @@
+name: Retirer la bannière MIPEUL World Tour
+
+on:
+  schedule:
+    # 22 octobre à 08h00 à Paris (UTC+2). Le script limite à 2026.
+    - cron: '0 6 22 10 *'
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: Vérifier sans modifier ni publier le site
+        type: boolean
+        default: true
+
+permissions:
+  contents: write
+  pages: write
+
+concurrency:
+  group: remove-event-promo
+  cancel-in-progress: false
+
+jobs:
+  remove-banner:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - name: Retirer uniquement cette annonce après son expiration
+        env:
+          DRY_RUN: ${{ inputs.dry_run || false }}
+        run: |
+          python3 - <<'PY'
+          import os
+          import re
+          from datetime import datetime, timezone
+          from pathlib import Path
+
+          now = datetime.now(timezone.utc)
+          expiry = datetime(2026, 10, 22, 6, tzinfo=timezone.utc)
+          if now < expiry or now.year != 2026:
+              print("Aucun retrait : en dehors de la période prévue.")
+              raise SystemExit(0)
+
+          path = Path("index.md")
+          content = path.read_text()
+          front_matter = content.split("---", 2)[1]
+          if "event-promo-image: assets/img/mipeul-world-tour-stade-paul-rebeillau.jpg" not in front_matter:
+              print("Cette annonce n'est plus active : aucun changement.")
+              raise SystemExit(0)
+
+          updated = re.sub(r"^event-promo-[\w-]+:[^\n]*(?:\n[ \t]+[^\n]*)*\n", "", front_matter, flags=re.MULTILINE)
+          if os.environ.get("DRY_RUN") == "true":
+              print("Simulation : la bannière serait retirée.")
+          else:
+              path.write_text(content.replace(front_matter, updated, 1))
+          PY
+
+      - name: Enregistrer et publier le retrait
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if git diff --quiet -- index.md; then
+            echo "Aucun changement à publier."
+            exit 0
+          fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add index.md
+          git commit -m "Retire la bannière MIPEUL World Tour expirée"
+          git push origin HEAD:main
+          # Un push avec GITHUB_TOKEN ne déclenche pas le build Pages automatiquement.
+          gh api --method POST "repos/$GITHUB_REPOSITORY/pages/builds"

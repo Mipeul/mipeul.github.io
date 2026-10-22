@@ -11,6 +11,7 @@ event-promo-text: >-
   Retrouvez-nous dès **18h30**, aux horaires habituels, à la **cafétéria du stade Paul Rébeillau**,
   au [**54 avenue Jacques Cœur à Poitiers**](https://www.google.com/maps/search/?api=1&query=54+avenue+Jacques+C%C5%93ur+Poitiers), pour notre soirée jeux.
   L'image ci-dessous vous indique l'entrée.
+  **Les autres mercredis, on se retrouve au CAC comme d'habitude !**
 event-promo-image: assets/img/mipeul-world-tour-stade-paul-rebeillau.jpg
 event-promo-alt: Vue du stade Paul Rébeillau depuis l'avenue Jacques Cœur, avec une flèche verte indiquant l'entrée de la cafétéria et la patinoire repérée à gauche.
 event-promo-expires: "2026-11-26T08:00:00+01:00"

@@ -9,6 +9,17 @@
 
 window.addEventListener('DOMContentLoaded', event => {
 
+    const announcement = document.querySelector('.event-promo-section[data-expires]');
+    if (announcement) {
+        const expires = Date.parse(announcement.dataset.expires);
+        const updateAnnouncement = () => {
+            announcement.hidden = !Number.isFinite(expires) || Date.now() >= expires;
+        };
+        updateAnnouncement();
+        // Réévaluer aussi si la page reste ouverte jusqu'au lendemain.
+        window.setInterval(updateAnnouncement, 1000);
+    }
+
     // Navbar shrink function
     var navbarShrink = function () {
         const navbarCollapsible = document.body.querySelector('#mainNav');

@@ -73,7 +73,7 @@
             </div>
         </header>
         {% if page.event-promo-title or page.event-promo-text or page.event-promo-image %}
-            <section class="event-promo-section">
+            <section class="event-promo-section" {% if page.event-promo-expires %}data-expires="{{page.event-promo-expires | escape}}" hidden{% endif %}>
                 <div class="container">
                     <div class="event-promo-card">
                     {% if page.event-promo-title or page.event-promo-text %}

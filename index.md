@@ -5,6 +5,15 @@ layout: default
 accueil-large: Bienvenue au Mipeul
 accueil-text: Des jeux et des gens pour y jouer
 
+event-promo-title: La MIPEUL World Tour continue !
+event-promo-text: >-
+  **Changement de lieu le mercredi 25 novembre 2026 !**
+  Retrouvez-nous dès **18h30**, aux horaires habituels, à la **cafétéria du stade Paul Rébeillau**,
+  au [**54 avenue Jacques Cœur à Poitiers**](https://www.google.com/maps/search/?api=1&query=54+avenue+Jacques+C%C5%93ur+Poitiers), pour notre soirée jeux.
+  L'image ci-dessous vous indique l'entrée.
+event-promo-image: assets/img/mipeul-world-tour-stade-paul-rebeillau.jpg
+event-promo-alt: Vue du stade Paul Rébeillau depuis l'avenue Jacques Cœur, avec une flèche verte indiquant l'entrée de la cafétéria et la patinoire repérée à gauche.
+event-promo-expires: "2026-11-26T08:00:00+01:00"
 
 # La vie de l'asso
 vie-asso-presentation: Le **Mipeul** (**M**ouvement **I**ndépendant **P**our l'**E**xploration de l'**U**nivers **L**udique) est une association basée à Poitiers qui se réunit régulièrement pour proposer des activités autour du jeu de société à ses membres et des animations à toutes et à tous.

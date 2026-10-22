@@ -2,8 +2,8 @@ name: Retirer la bannière MIPEUL World Tour
 
 on:
   schedule:
-    # 22 octobre à 08h00 à Paris (UTC+2). Le script limite à 2026.
-    - cron: '0 6 22 10 *'
+    # 26 novembre à 08h00 à Paris (UTC+1). Le script limite à 2026.
+    - cron: '0 7 26 11 *'
   workflow_dispatch:
     inputs:
       dry_run:
@@ -39,7 +39,7 @@ jobs:
           from pathlib import Path
 
           now = datetime.now(timezone.utc)
-          expiry = datetime(2026, 10, 22, 6, tzinfo=timezone.utc)
+          expiry = datetime(2026, 11, 26, 7, tzinfo=timezone.utc)
           if now < expiry or now.year != 2026:
               print("Aucun retrait : en dehors de la période prévue.")
               raise SystemExit(0)
@@ -47,7 +47,7 @@ jobs:
           path = Path("index.md")
           content = path.read_text()
           front_matter = content.split("---", 2)[1]
-          if "event-promo-image: assets/img/mipeul-world-tour-stade-paul-rebeillau.jpg" not in front_matter:
+          if 'event-promo-expires: "2026-11-26T08:00:00+01:00"' not in front_matter or "event-promo-image: assets/img/mipeul-world-tour-stade-paul-rebeillau.jpg" not in front_matter:
               print("Cette annonce n'est plus active : aucun changement.")
               raise SystemExit(0)
 
